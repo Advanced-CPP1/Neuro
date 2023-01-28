@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #14181b;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#products-ribbon-container {
+    position: relative;
+    top: -200px;
+    height: 700px;
+}
+
+hr {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#partners-title {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-bottom: 30px;
+    height: 70px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 60px 60px 0 0;
+}
+
+#logos li {
+    margin-top: 15px;
+}
+
+#product-1-price {
+    color: #B12704;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+#our-products {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+    left: 824px;
+    z-index: 2;
+}
+
+#ribbon-container {
+    height: 175px;
+    width: 450px;
+    position: relative;
+    top: 140px;
+    left: 727px;
+    z-index: 2;
+}
+
+.image {
+    display: flex;
+    justify-content: right;
+    margin-top: 125px;
+    margin-right: 0;
+}
+
+.image img {
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(90deg);
+    }
+    75% {
+        filter: hue-rotate(120deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.introduction-container h1 {
+    font-size: 40px;
+    font-family: 'Product Sans Black', sans-serif;
+    position: absolute;
+    top: 170px;
+    margin-left: 70px;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    border-left: 10px solid cyan;
+}
+
+.introduction-container p {
+    font-size: 22px;
+    font-family: 'Product Sans', sans-serif;
+    position: absolute;
+    top: 225px;
+    margin-left: 95px;
+    max-width: 600px;
+    color: white;
+    font-weight: 500;
+}
+
+
+#products {
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.introduction-container a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    position: relative;
+    left: 90px;
+    bottom: 232px;
+    background-color: #eeab3d;
+    padding: 15px 35px;
+    border-radius: 20px;
+    box-shadow: 0 1px 20px 0 #eeab3d;
+}
+
+.icon-center {
+    text-align: center;
+}
+
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+}
+
+.icon-center i {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.introduction-container a:hover {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 65px;
+    top: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#product-1 {
+    height: 450px;
+    background-color: white;
+    width: 347px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 12px 5px 70px 5px;
+}
+
+#product-1:hover,
+#product-2:hover,
+#product-3:hover {
+    background-color: #a1fc03;
+}
+
+#products-li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#products-li li {
+    margin-right: 20px;
+}
+
+#product-4 {
+    height: 400px;
+    background-color: white;
+    width: 347px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 12px 5px 70px 5px;
+}
+
+#product-4-img {
+    height: 198px;
+    width: 357px;
+    border-radius: 20px 20px 0 0;
+    margin-left: -5px;
+    margin-top: -13px;
+}
+
+#product-2 {
+    height: 400px;
+    background-color: white;
+    width: 347px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 12px 5px 70px 5px;
+}
+
+#product-2-img {
+    height: 198px;
+    width: 357px;
+    border-radius: 20px 20px 0 0;
+    margin-left: -5px;
+    margin-top: -13px;
+}
+
+#product-1-img {
+    height: 198px;
+    width: 357px;
+    border-radius: 20px 20px 0 0;
+    margin-top: -13px;
+    margin-left: -5px;
+}
+
+.products-title {
+    text-align: center;
+    margin-top: 4px;
+    text-decoration: 5px underline solid orangered;
+    font-family: 'Product Sans', sans-serif;
+}
+
+#words-list {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: powderblue; */
+    /* background-color: peachpuff; */
+    background-color: pink;
+    /* border-radius: 50px; */
+    width: 100%;
+}
+
+.words {
+    margin-right: 20px;
+}
+
+.machine-learning-word img {
+    height: 150px;
+}
+
+.machine-learning-word p, .machine-learning-word h2{
+    font-family: 'Product Sans Black', sans-serif;
+}
+
+.machine-learning-word p {
+    width: 350px;
+}
+
+.words img {
+    height: 150px;
+}
+
+#words-list li {
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.words p, .words h2 {
+    color: black;
+    font-family: 'Product Sans Black', sans-serif;
+}
+
+.words p {
+    width: 300px;
+}
+
+.products-description {
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 520;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(224, 255, 255, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    padding: 8px;
+}
+
+#get-product-1 {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    left: 95px;
+    top: 10px;
+}
+
+
+#get-product-2 {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    left: 95px;
+    top: -8px;
+}
+
+#get-product-1:hover,
+#get-product-2:hover {
+    background-color: yellow;
+}
+
+#page-icon {
+    height: 75px;
+    width: 100px;
+}
+
+#header-container {
+    height: 500px;
+}
+
+.only-to-be-styled:hover {
+    border-radius: 4px;
+    border-bottom: 4px solid darkmagenta;
+
+}
+
+#product-3 {
+    height: 400px;
+    background-color: white;
+    width: 347px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 12px 5px 70px 5px;
+}
+
+#product-3-img {
+    height: 198px;
+    width: 357px;
+    border-radius: 20px 20px 0 0;
+    margin-top: -13px;
+    margin-left: -5px;
+}
+
+#get-product-3 {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    left: 95px;
+    top: 20px;
+}
